@@ -1,5 +1,6 @@
 package main.kotlin
-val day5Ranges = listOf(
+
+val day5Ranges = setOf(
     Pair(138819382319231, 139261836115272),
     Pair(241715954764948, 245449975502014),
     Pair(252766907402332, 258152697538983),

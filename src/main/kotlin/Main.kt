@@ -4,7 +4,7 @@ import kotlin.system.measureTimeMillis
 
 val daySolvers = listOf(::day1, ::day2, ::day3, ::day4, ::day5, ::day6, ::day7, ::day8, ::day9, ::day10, ::day11, ::day12)
 
-val skipDays = listOf(1, 2, 3, 4, 5, 6)
+val skipDays = listOf(1, 2, 3, 4, 5, 6, 7, 8)
 
 fun main(args: Array<String>) {
     val timings = mutableMapOf<String, Long>()

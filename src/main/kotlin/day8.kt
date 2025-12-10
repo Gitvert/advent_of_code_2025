@@ -50,7 +50,11 @@ fun day8 (lines: List<String>) {
                 .map { it.junctionBoxes.size }
                 .reduce { acc, n -> acc * n }
             println("Day 8 part 1: $answer")
+        }
 
+        if (circuits.maxOf { it.junctionBoxes.size } == 1000) {
+            val answer = distance.points.first.x * distance.points.second.x
+            println("Day 8 part 2: $answer")
             return
         }
     }

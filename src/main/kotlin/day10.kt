@@ -1,5 +1,7 @@
 package main.kotlin
 
+//import com.microsoft.z3.*
+
 val goalStatePattern = Regex("\\[(.+)]")
 val buttonsPattern = Regex("\\((.+)\\)")
 
